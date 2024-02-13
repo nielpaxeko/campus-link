@@ -1,0 +1,36 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-campuslink-dev-153143-authRole",
+      "UnauthRoleArn": "arn:aws:iam::148357194949:role/amplify-campuslink-dev-153143-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::148357194949:role/amplify-campuslink-dev-153143-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-campuslink-dev-153143-deployment",
+      "UnauthRoleName": "amplify-campuslink-dev-153143-unauthRole",
+      "StackName": "amplify-campuslink-dev-153143",
+      "StackId": "arn:aws:cloudformation:us-east-1:148357194949:stack/amplify-campuslink-dev-153143/e7d859e0-caae-11ee-9acc-0e878620a4b5",
+      "AmplifyAppId": "d22vjee3bb1pxv",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-campuslink-dev-153143-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "function": {
+        "campuslink5e8a7008": {
+          "deploymentBucketName": "amplify-campuslink-dev-153143-deployment",
+          "s3Key": "amplify-builds/campuslink5e8a7008-6d4d59735a63564f664a-build.zip"
+        }
+      },
+      "auth": {
+        "campuslink": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d22vjee3bb1pxv",
+          "type": "cicd"
+        }
+      },
+      "api": {
+        "apidcf235a5": {}
+      }
+    }
+  }
+}
