@@ -8,6 +8,7 @@ import connection from '../../../utils/db';
 const prisma = new PrismaClient();
 
 export async function POST(request) {
+
   try {
     const formData  = await request.formData();
     const email = formData.get('email');

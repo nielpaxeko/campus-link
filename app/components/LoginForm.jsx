@@ -50,14 +50,14 @@ const LoginForm = () => {
           className="col-md-6 col-lg-5 rounded-4 left-box p-4"
           style={{ background: "#103cbe", color: "white" }}
         >
-          <div className="text-center mb-3">
+          {/* <div className="text-center mb-3">
             <Image
               src="/images/person.svg"
               alt="Person"
               width={200}
               height={200}
             />
-          </div>
+          </div> */}
           <h1 className="text-center">Campus Link</h1>
           <p className="text-center mb-2">
             Your learning adventure begins here!

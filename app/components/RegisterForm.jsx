@@ -77,12 +77,12 @@ const RegisterForm = () => {
           style={{ background: "#103cbe" }}
         >
           <div className="mb-4">
-            <Image
+            {/* <Image
               src="/images/person.svg"
               alt="Person"
               width={250}
               height={250}
-            />
+            /> */}
           </div>
           <h1 className="text-light">Campus Link</h1>
           <p className="text-light fs-5 mb-0">
