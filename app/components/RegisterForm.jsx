@@ -13,6 +13,8 @@ const RegisterForm = () => {
     email: "",
     password: "",
     confirmPassword: "",
+    age: "",
+    major: ""
   });
   const [error, setError] = useState("");
 
@@ -129,6 +131,26 @@ const RegisterForm = () => {
                 name="email"
                 placeholder="Enter your email"
                 value={data.email}
+                onChange={handleChange}
+              />
+            </div>
+            <div className="mb-3">
+              <input
+                type="age"
+                className="form-control"
+                name="age"
+                placeholder="Enter your age"
+                value={data.age}
+                onChange={handleChange}
+              />
+            </div>
+            <div className="mb-3">
+              <input
+                type="major"
+                className="form-control"
+                name="major"
+                placeholder="Enter your major"
+                value={data.major}
                 onChange={handleChange}
               />
             </div>

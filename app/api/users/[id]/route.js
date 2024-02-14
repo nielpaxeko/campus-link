@@ -7,7 +7,6 @@ const prisma = new PrismaClient();
 
 
 
-
 export async function GET(req, { params }) {
   try {
     // Extract user ID from request parameters
